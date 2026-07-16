@@ -87,7 +87,7 @@
 
         /* Layout Grid Elements */
         section {
-            padding: 8rem 2rem 4rem 2rem;
+            padding: 4rem 2rem 2rem 2rem;
             max-width: 1100px;
             margin: 0 auto;
         }
@@ -95,19 +95,19 @@
         .section-title {
             font-size: 2.5rem;
             font-weight: 700;
-            margin-bottom: 3rem;
+            margin-bottom: 1.5rem;
             letter-spacing: -0.03em;
         }
 
         /* --- HERO SECTION (MINIMALIST WHITE BACKGROUND) --- */
         #home {
-            min-height: 100vh;
+            min-height: auto;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
-            padding: 9rem 2rem 5rem 2rem;
+            padding: 7rem 2rem 3rem 2rem;
             background: #ffffff; /* Clean pristine background matching Apple's store landing page layout */
             color: var(--text-primary);
         }
@@ -408,6 +408,8 @@
         }
 
         @media (max-width: 768px) {
+            #home { padding: 6rem 1.5rem 2rem 1.5rem; }
+            section { padding: 3rem 1.5rem 1.5rem 1.5rem; }
             .hero-title { font-size: 2.6rem; }
             .hero-name { font-size: 1.8rem; }
             .hero-profile-img { width: 220px; height: 275px; }
